@@ -1,0 +1,57 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm, top=3cm, text={17cm, 24cm}]{geometry}
+\usepackage{times}
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks = true, hypertexnames = false}
+
+\usepackage{amsmath}
+\usepackage{dtk-logos}
+
+
+
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+
+\textsc{{\Huge Vysoké učení technické v Brně}\\
+{\Huge Fakulta informačních technologií}}\\
+\vspace{\stretch{0.382}}
+\LARGE Typografie a publikování \,--\, 4. projekt\\
+{\huge Bibliografické citácie}
+\vspace{\stretch{0.618}}
+\end{center}
+{\LARGE 16. apríla 2018 \hfill
+Sabína Gregušová (xgregu02)}
+\end{titlepage}
+
+\section{Úvod}
+Najbežnejšou formou neverbálnej komunikácie je jednoznačne písmo. Prvé zmienky o písme sa objavili v Egypte asi 3100 rokov pred naším letopočtom a odtiaľ sa koncept písma rozširoval do celého sveta \cite{Story2007}.
+
+Pri písaní článku či knihy by malo autorovi záležať nielen na kvalite obsahu, ale aj na vizuálnej stránke. V roku 2008 bol vykonaný výzkum s cieľom zistiť, koľko riadkov prečíta priemerný návštevník webovej stránky a ako na tento fakt pôsobí typografická úprava \cite{vyskum2008}. Ďaľším dôležitým aspketom je vhodná voľba slov a gramatická správnosť. O problematike gramatických chýb pojednáva \cite{Pospisilova2016}.
+
+\section{Nástroje}
+V dnešnej ére počítačov je na výber niekoľko textových editorov, od najzákladnejšieho Poznámkového bloku až po komplexný \LaTeX. Pri výbere vhodného editora sa musí prihliadnuť na počítačovú gramotnosť a účel tvorby dokumentu. Porovnanie najpoužívanejších editorov je dostupné na stránke \cite{porovnanie2007}.
+
+\section{\LaTeX}
+Nástroj \LaTeX nepatrí medzi najjednoduchšie, ale schopnosť vysádzať dokumenty v \LaTeX u môže mať rôzne benefity, napríklad väčšia sústredenosť na samotný obsah, flexibilita, dostupnosť či cena \cite{online2011}. Mnohí používatelia získajú svoje prvé znalosti vďaka knihe \cite{Rybicka2003}.
+
+Pri tvorbe učebných materiálov by si autor mal dať obvzlášť záležať na vizuálnej stránke rovnako ako aj na obsahovej, nakoľko to môže niekoľkonásobne zvýšiť učiacu krivku študenta \cite{article1948}
+
+\LaTeX vytvára pdf súbor, ktorý je možné vytlačiť, zviazať a založiť. Kvalita tlače by nemala byť zanedbaná, pretože by to znehodnotilo celú prácu \cite{article2013}. 
+
+\subsection{Rozšírenia}
+\LaTeX má veľkú komunitu nadšencov a preto vznikli rôzne rozšírenia, ktoré je možné použiť spolu s \LaTeX om. Medzi najzámejšie patrí \AmS-\LaTeX, \BibTeX alebo \MiKTeX. Menej známe je napríklad Unicode rozšírenie \XeTeX na ktoré sa zameriava \cite{kocur2016}
+
+\subsection{Sadzba matematiky}
+Sadzba matematiky môže byť pomerne náročná v jednoduchších textových editoroch, no \LaTeX je na túto úlohu ako stvorený. Užívateľovi stačí len znalosť pár príkazov a dokáže vysádzať skoro všetky bežné matematické operácie. Podrobný návod je možné nájsť na webovej stránke \cite{online2009}.
+
+\newpage
+\bibliographystyle{czechiso}
+\renewcommand{\refname}{Literatura}
+\bibliography{proj4}
+
+\end{document}
